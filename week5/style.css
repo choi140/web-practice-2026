@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    width: full;
+    height: 100px;
+    background-color: pink;
+    position: sticky;
+    top: 100px;
+    right: 10px;
+    gap: 10px;
+}
+
+header h1 a{
+    width: 100px;
+    height: 20px;
+    background-color: gold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;            
+    background-color: gold;
+}
+
+header > a{
+    width: 100px;
+    height: 20px;
+    background-color: gold;
+}
+
+
+#section {
+    background: radial-gradient(red, purple) no-repeat center / 1000px 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#section2{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
+    gap:10px;
+}
+
+#section2 ul li {
+    position: relative; 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;        
+    left: 20px;            
+    background-color: violet
+}
